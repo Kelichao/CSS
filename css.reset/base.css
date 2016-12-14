@@ -19,6 +19,7 @@ tr,td{border:1px solid}
 .text_left{text-align: left;}
 .float_left{float:left}
 .float_right{float:right}
+.middle{vertical-align:middle}
 .pointer{cursor:pointer;}
 /*清除浮动*/
 .clearfix:after{content:"";display:block;height:0;clear:both;visibility:hidden;}
