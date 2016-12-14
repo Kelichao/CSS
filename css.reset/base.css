@@ -11,7 +11,8 @@ a {text-decoration: none}
 a:hover {text-decoration: underline}
 legend {color: #000}
 button,input,select,textarea {font-size: 100%}
-table {border-collapse: collapse;border-spacing: 0}
+table {border-collapse: collapse;border-spacing: 0;border:1px solid}
+tr,td{border:1px soild}
 .hide {display: none}
 .text-center{text-align: center}
 .text-right{text-align: right;}
