@@ -23,6 +23,7 @@ tr,td{border:1px solid}
 .pointer{cursor:pointer;}
 .relative{position:relative}
 .absolute{position:absolute}
+.self_center{display:block;width:100px;/*宽度必须要有，自己需重新设定*/left:0;right:0;/*前面两条用于absolute或者fixed定位*/}
 /*清除浮动*/
 .clearfix:after{content:"";display:block;height:0;clear:both;visibility:hidden;}
 .clearfix{zoom:1;} /*IE6,7*/
