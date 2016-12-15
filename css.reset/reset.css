@@ -14,9 +14,9 @@ button,input,select,textarea {font-size: 100%}
 table {border-collapse: collapse;border-spacing: 0;border:1px solid}
 tr,td{border:1px solid}
 .hide {display: none}
-.text_center{text-align: center}
-.text_right{text-align: right;}
-.text_left{text-align: left;}
+.center{text-align: center}
+.right{text-align: right;}
+.left{text-align: left;}
 .float_left{float:left}
 .float_right{float:right}
 .middle{vertical-align:middle}
