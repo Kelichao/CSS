@@ -21,6 +21,8 @@ tr,td{border:1px solid}
 .float_right{float:right}
 .middle{vertical-align:middle}
 .pointer{cursor:pointer;}
+.relative{position:relative}
+.absolute{position:absolute}
 /*清除浮动*/
 .clearfix:after{content:"";display:block;height:0;clear:both;visibility:hidden;}
 .clearfix{zoom:1;} /*IE6,7*/
