@@ -106,11 +106,17 @@ tr,td{border:1px solid}
 .pa{position:absolute}
 .pf{position:fixed;}
 
-/*用于absolute或者fixed定位,任意类型元素的水平居中(要求：1.宽度必须要有)*/
+/*用于absolute或者fixed定位或者浮动,任意类型元素的水平居中(要求：1.宽度必须要有)*/
 .pauto{left:0;right:0;margin-left:auto;margin-right:auto;}
+
+/*任意类型元素的水平垂直居中(要求：1.宽度必须要有)*/
+.pautoall{left:0;right:0;top:0;bottom:0;margin:auto;}
 
 /* 块元素水平居中(要求 1.无定位 2.设定宽度 3.必须是display:block) */
 .auto{margin-left:auto;margin-right:auto;display:block;}
+
+/* 块元素水平垂直居中(要求 1.无定位 2.设定宽度 3.必须是display:block) */
+.auto{margin:auto;display:block;}
 
 /*清除浮动*/
 .fix:after{content:"";display:block;height:0;clear:both;visibility:hidden;}
