@@ -118,6 +118,17 @@ tr,td{border:1px solid}
 /* 块元素水平垂直居中(要求 1.无定位 2.设定宽度 3.必须是display:block) */
 .auto{margin:auto;display:block;}
 
+/* 容器内部子元素水平垂直居中 */
+/*存放<img>的容器设置如下*/
+.autocont{ 
+	/*将内部元素按照单元格显示，因此可以垂直居中*/
+	/*需要与vertical配合*/
+    display:table-cell; 
+    text-align:center;
+    vertical-align:middle;
+}
+
+
 /*清除浮动*/
 .fix:after{content:"";display:block;height:0;clear:both;visibility:hidden;}
 
