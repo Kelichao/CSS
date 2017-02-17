@@ -4,8 +4,7 @@
 - [阮一峰css技巧](http://www.ruanyifeng.com/blog/2010/03/css_cookbook.html)
 - [《精通CSS 高级Web标准解决方案》](http://baike.baidu.com/link?url=5PsfJ3_QqBxoW9L0sYY6qN3LPHNOqKeatMYq8vswYVe5NUNmjHJvpMTbq96jmxnhD9YmHehDzCpK2_EBFoy1yY6t1i4QlzbLdYT_4sGS-TAiyDWeQCbOvSDCwk4hu295gX2dHimATw2OnxSONO34thnn4blaaqi9TIUanSh8dTQpa53UzETKlfY9VR9bguaSrOhomOEpkp48lQC0sEzItuek4mBXP-SgDHJ39_4y9M_)
 
-https://cloud.githubusercontent.com/assets/18028533/21841538/7cd9f8b4-d81d-11e6-9d0d-cda4824edb06.png
-
+![image](https://cloud.githubusercontent.com/assets/18028533/21841538/7cd9f8b4-d81d-11e6-9d0d-cda4824edb06.png)
 
 # NEC样式规则
 [NEC官网](http://nec.netease.com/standard/css-sort.html)
