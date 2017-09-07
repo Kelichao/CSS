@@ -39,6 +39,16 @@ tr,td{border:1px solid}
 .f-h22{height:22px;}
 .f-h24{height:24px;}
 
+/* 常用百分比高度 */
+.f-h100p{height:100%;}
+.f-h80p{height:80%;}
+.f-h70p{height:70%;}
+.f-h60p{height:60%;}
+.f-h50p{height:50%;}
+.f-h40p{height:40%;}
+.f-h30p{height:30%;}
+.f-h20p{height:20%;}
+
 /* line-height */
 .f-lh14{line-height:14px;}
 .f-lh16{line-height:16px;}
