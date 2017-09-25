@@ -25,8 +25,21 @@ tr,td{border:1px solid}
 
 /* --------------------single CSS start----------------------- */
 
+/*
+ * @css reset
+ * @author: kelichao;
+ * @update: 2016-12-20
+ * @update: 2017-01-29
+ */
+
+/* --------------------single CSS start----------------------- */
+* {
+    padding:0px;
+    margin:0px;
+}
+
 /* display */
-.f-hide{display:none;}
+.hide{display:none;}
 .f-di{display:inline;}
 .f-db{display:block;}
 .f-dib{display:inline-block;}
@@ -38,16 +51,6 @@ tr,td{border:1px solid}
 .f-h20{height:20px;}
 .f-h22{height:22px;}
 .f-h24{height:24px;}
-
-/* 常用百分比高度 */
-.f-h100p{height:100%;}
-.f-h80p{height:80%;}
-.f-h70p{height:70%;}
-.f-h60p{height:60%;}
-.f-h50p{height:50%;}
-.f-h40p{height:40%;}
-.f-h30p{height:30%;}
-.f-h20p{height:20%;}
 
 /* line-height */
 .f-lh14{line-height:14px;}
@@ -67,14 +70,6 @@ tr,td{border:1px solid}
 .f-f18{font-size:18px;}
 .f-f20{font-size:20px;}
 .f-f24{font-size:24px;}
-
-/* font-family */
-.f-fa{font-family:Arial;}
-.f-ft{font-family:Tahoma;}
-.f-fv{font-family:Verdana;}
-.f-fs{font-family:Simsun;}
-.f-fl{font-family:'Lucida Console';}
-.f-fw{font-family:'Microsoft Yahei';}
 
 /* font-color */
 .f-cw{color:white;}
@@ -118,20 +113,20 @@ tr,td{border:1px solid}
 .f-pf{position:fixed;}
 
 /*用于absolute或者fixed定位或者浮动,任意类型元素的水平居中(要求：1.宽度必须要有)*/
-.f-pauto{left:0;right:0;margin-left:auto;margin-right:auto;position:absolute;/*父元素需要相对定位*/}
+.pauto{left:0;right:0;margin-left:auto;margin-right:auto;position:absolute;/*父元素需要相对定位*/}
 
 /*任意类型元素的水平垂直居中(要求：1.宽度必须要有)*/
-.f-pautoall{left:0;right:0;top:0;bottom:0;margin:auto;position:absolute;/*父元素需要相对定位*/}
+.pautoall{left:0;right:0;top:0;bottom:0;margin:auto;position:absolute;/*父元素需要相对定位*/}
 
 /* 块元素水平居中(要求 1.无定位 2.设定宽度 3.必须是display:block) */
-.f-auto{margin-left:auto;margin-right:auto;display:block;}
+.auto{margin-left:auto;margin-right:auto;display:block;}
 
 /* 块元素水平垂直居中(要求 1.无定位 2.设定宽度 3.必须是display:block) */
-.f-auto{margin:auto;display:block;}
+.auto{margin:auto;display:block;}
 
 /* 容器内部子元素水平垂直居中 */
 /*存放<img>的容器设置如下*/
-.f-autocont{ 
+.autocont{ 
 	/*将内部元素按照单元格显示，因此可以垂直居中*/
 	/*需要与vertical配合*/
     display:table-cell; 
@@ -140,10 +135,10 @@ tr,td{border:1px solid}
 }
 
 /*清除浮动*/
-.f-fix:after{content:"";display:block;height:0;clear:both;visibility:hidden;}
+.fix:after{content:"";display:block;height:0;clear:both;visibility:hidden;}
 
 /*在IE6/7中通过zoom:1可以触发hasLayout。*/
-.f-fix{zoom:1;}
+.fix{zoom:1;}
 
 /* vertical-align */
 .f-vam{vertical-align:middle;}
@@ -158,12 +153,9 @@ tr,td{border:1px solid}
 /* zoom */
 .f-z{*zoom:1;}
 
-/* 加载中背景图片 - 如果您使用该CSS小库，务必修改此图片地址 */
-.f-loading{background:url() no-repeat center;}
-
 /* 按钮禁用，如果有disabled则return */
-.f-disabled{color:#acacac;border-color:#acacac;text-shadow:1px 1px #fff;outline:0;cursor:default;pointer-events:none;}
-.f-disabled:hover{text-decoration:none;}
+.disabled{color:#acacac;border-color:#acacac;text-shadow:1px 1px #fff;outline:0;cursor:default;pointer-events:none;}
+.disabled:hover{text-decoration:none;}
 
 /*增加了margin*/
 .f-m1{margin:1px;}
@@ -238,4 +230,55 @@ tr,td{border:1px solid}
 .f-pr10{padding-right:10px;}
 .f-pt10{padding-top:10px;}
 .f-pb10{padding-top:10px;}
+
+.f-ofh{overflow: hidden;}
+.f-ofa{overflow: auto;}
+.f-ofv{overflow: visible;}
+/* ------------------- single CSS end------------------ */
+
+
+/* font-style */
+.f-fwn{font-weight:normal; font-style:normal;}
+.f-fwb{font-weight:bold;}
+.f-fwbi{font-weight:bold !important;}
+.f-fsi{font-style:italic;}
+
+/* text-align */
+.f-center{text-align:center;}
+.f-tar{text-align:right;}
+.f-tal{text-align:left;}
+
+/* text-decoration */
+.f-tdu{text-decoration:underline;}
+
+/* css3过渡动画效果 */
+.f-trans3{-webkit-transition:all 0.3s;transition:all 0.3s;}
+.f-trans5{-webkit-transition:all 0.5s;transition:all 0.5s;}
+.f-trans8{-webkit-transition:all 0.8s;transition:all 0.8s;}
+.f-trans10{-webkit-transition:all 1s;transition:all 1s;}
+
+/* 单行文字溢出虚点显 示*/
+.f-ell{text-overflow:ellipsis;white-space:nowrap;overflow:hidden;}
+
+/* 浮动 */
+.f-fl{float:left}
+.f-fr{float:right}
+
+/* 鼠标手势 */
+.f-cp{cursor:pointer;}
+.f-cd{cursor:default;}
+.f-cdi{cursor:default !important;}
+.f-cna{cursor:not-allowed;}
+
+/* position */
+.f-pr{position:relative}
+.f-pa{position:absolute} 
+.f-pf{position:fixed;}
+
+.f-oa{
+    overflow: auto;
+}
+.f-btd {
+    border-top:1px dashed;
+}
 /* ------------------- single CSS end------------------ */
