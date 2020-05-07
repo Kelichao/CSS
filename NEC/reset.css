@@ -2,7 +2,7 @@
  * @css reset
  * @author: kelichao;
  * @update: 2016-12-20
- * @update: 2020-01-29
+ * @update: 2017-01-29
  */
 /* 注:div,span是没有margin,padding的 */
 body,button,dd,dl,dt,fieldset,form,
@@ -346,40 +346,7 @@ table {border-collapse:collapse;border-spacing:0;}
     background-size: contain; 
 }
 
-.no-info {
-    background-size: auto; 
-    background-image: url("../assets/noinfo.png");
-}
 
-
-
-[sw-role="cell"]{
-    display: flex;
-    box-sizing: border-box;
-}
-[sw-mode="wrap"]{
-    flex-wrap:wrap;
-}
-
-[sw-align="center"]{
-    align-items:center;
-}
-[sw-valign="center"]{
-    justify-content: center;
-    text-align: center;
-}
-
-[sw-layout="fit"]{
-    flex:1;
-}
-
-[sw-mode="y"]{
-    flex-direction:column;
-}
-
-[sw-mode="x"]{
-    flex-direction:row;
-}
 .f-df{
     display: flex;/* flex布局 */
 }
